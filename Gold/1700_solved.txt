@@ -1,0 +1,9 @@
+#백준1700 멀티탭 스케줄링(G1)
+    - 그리디문제
+    - Page Replacement algorithm에서 OPT방식을 활용하여 문제를 해결하면 됨
+    - Page Replacement algorithm은 메모리에 공간이 없을 때, 어떤 페이지를 디스크와 스와핑을 할 것인지 결정하는 알고리즘임
+    - FIFO, OPT, LRU, LFU 등의 방식이 있음
+    - OPT(Optimal Page Replacement) 방식
+        - 메모리에 할당되어 있는 페이지 중, 가장 미래에 참조되는 페이지를 쫒아내는 방식
+        - 하지만 현실에서는 미래를 알 수 없기 때문에, 사용되지 않고 있음
+    - 이 문제에서는 미래를 알고 있기 때문에 OPT 방식을 이용하여 문제를 해결하면 됨
