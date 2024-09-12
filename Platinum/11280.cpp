@@ -61,7 +61,7 @@ int main(void) {
     }
     bool flag = true;
     for (int i = 1; i <= n; i++) {
-        if (node_scc[i] == node_scc[nX(i)]) {
+        if (node_scc[tX(i)] == node_scc[fX(i)]) {
             flag = false; break;
         }
     }
