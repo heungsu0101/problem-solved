@@ -1,3 +1,9 @@
+/*
+    #백준2631 줄 세우기(G4)
+        - lis문제
+        - 어떤 학생을 옮겨야하나 생각해보면 lis를 구해서 기준을 구하고 lis에 해당하지 않은 학생들만 옮겨주면 됨.
+        - 따라서 n - lis길이 답이 됨
+*/
 #include <iostream>
 #include <algorithm>
 #include <vector>
